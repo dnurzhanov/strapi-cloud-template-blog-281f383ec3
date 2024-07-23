@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_widget_prediction_cards",
+  "info": {
+    "displayName": "PredictionCard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
