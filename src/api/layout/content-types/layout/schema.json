@@ -4,7 +4,8 @@
   "info": {
     "singularName": "layout",
     "pluralName": "layouts",
-    "displayName": "layout"
+    "displayName": "layout",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,8 +18,19 @@
     "widgets": {
       "type": "dynamiczone",
       "components": [
-        "widget.prediction-card"
+        "widget.prediction-card",
+        "widget.carousel"
       ]
+    },
+    "picture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
